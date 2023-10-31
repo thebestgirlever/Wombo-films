@@ -1,0 +1,32 @@
+.roll__block {
+    padding-left: 100px;
+    background-color: #0E0303;
+    padding-bottom: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    align-items:center;
+}
+
+.title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.more {
+    text-decoration: none;
+    color: #DC773D;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    padding-top: 16px;
+}
+

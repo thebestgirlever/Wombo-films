@@ -1,0 +1,26 @@
+.block {
+    height: 240px;
+    background: #2E0C0D;
+}
+
+.title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 40px 0 20px 100px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text {
+    color: #FFD5BC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}

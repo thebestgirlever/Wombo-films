@@ -1,0 +1,28 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 420px;
+    padding-right: 44px;
+}
+
+.roll__image {
+    width: 250px;
+    height: 372px;
+}
+
+.movie__name {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+
+.year {
+    color: #DC773D;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}

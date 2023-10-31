@@ -1,0 +1,43 @@
+<NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+
+        <div className={styles.roll__block}
+            <div className={styles.top}>
+                <div className={styles.title}>Новинки 2023</div>
+                <div className={styles.more}>Все новинки</div>
+            </div>
+        </div>
+
+
+    import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
+const handleDragStart = (e) => e.preventDefault();
+
+const items = [
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+];
+
+const Gallery = () => {
+  return (
+    <AliceCarousel mouseTracking items={items} />
+  );
+}    <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+            

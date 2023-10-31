@@ -1,0 +1,53 @@
+{
+    "filmList": [
+        {
+            "id": "1",
+            "name": "Стражи Галактики. Часть 2",
+            "year": "2018",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "2",
+            "name": "Судная ночь. Начало",
+            "year": "2014",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "3",
+            "name": "Ничего хорошего в отеле",
+            "year": "2014",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "4",
+            "name": "Мир Юрского периода 2",
+            "year": "2014",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "5",
+            "name": "Сорвиголова",
+            "year": "2014",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "6",
+            "name": "Начало",
+            "year": "2015",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "7",
+            "name": "Сумерки",
+            "year": "2010",
+            "filmImage": "",
+            "categoryName": "new"
+        }
+    ]
+}
