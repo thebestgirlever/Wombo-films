@@ -4,17 +4,24 @@ import Roll from './main/Roll/Roll';
 import Description from './main/Description/Description';
 import Footer from './main/Footer/Footer';
 
+import data from './data.json'
+
 import './App.css';
 import { useEffect, useState } from 'react';
 
+
 function App() {
+
+  const [filmList, setFilmList] = useState(data.filmList)
+  const [filmListNew, setFilmListNew] = useState(data.filmListNew)
+
   return (
     <div className="app">
       <Header />  
       <Preview />
-      <Roll />
+      <Roll items={filmListNew}/>
       <Description />
-      <Roll />
+      <Roll  items={filmList}/>
       <Roll />
       <Footer />
     </div>

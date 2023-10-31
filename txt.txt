@@ -41,3 +41,16 @@ const Gallery = () => {
   <div><h3>5</h3></div>
   <div><h3>6</h3></div>
             
+
+
+ <Filters
+        items={categoryList}
+        current={currentCategory}
+        onCurrentChange={onCurrentCategoryChange}
+        onIsLimitedChange={onIsLimitedChange}
+        onIsNewChange={onIsNewChange}
+        isLimited={isLimited}
+        isNew={isNew}
+      />
+      <List items={productList} />
+    </div>

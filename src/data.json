@@ -1,53 +1,122 @@
 {
     "filmList": [
         {
-            "id": "1",
+            "id": "642dfb2c-9a08-4656-a0cf-ef0fb327cc7f",
             "name": "Стражи Галактики. Часть 2",
             "year": "2018",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "2",
+            "id": "d6517a7d-d6e5-4140-9fd4-af8b0d6262cc",
             "name": "Судная ночь. Начало",
             "year": "2014",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "3",
+            "id": "daa43958-47d5-4480-a64b-d43469a3815f",
             "name": "Ничего хорошего в отеле",
             "year": "2014",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "4",
+            "id": "4cfb471e-076a-4b10-a0c6-42c221a96c1d",
             "name": "Мир Юрского периода 2",
             "year": "2014",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "5",
+            "id": "7ee76cfd-cfe6-4698-8a02-429047173856",
             "name": "Сорвиголова",
             "year": "2014",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "6",
+            "id": "3f8f6bbe-eeb3-430b-8356-718caadfb930",
             "name": "Начало",
             "year": "2015",
             "filmImage": "",
             "categoryName": "new"
         },
         {
-            "id": "7",
+            "id": "80a30a69-08bb-464f-bd5f-a851216caa2b",
             "name": "Сумерки",
             "year": "2010",
             "filmImage": "",
             "categoryName": "new"
+        }
+    ],
+    "filmListNew": [
+        {
+            "id": "642dfb2c-9a08-4656-a0cf-ef0fb327cc7f",
+            "name": "Стражи Галактики. Часть 2",
+            "year": "2023",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "d6517a7d-d6e5-4140-9fd4-af8b0d6262cc",
+            "name": "Судная ночь. Начало",
+            "year": "2023",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "daa43958-47d5-4480-a64b-d43469a3815f",
+            "name": "Ничего хорошего в отеле",
+            "year": "2023",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "4cfb471e-076a-4b10-a0c6-42c221a96c1d",
+            "name": "Мир Юрского периода 2",
+            "year": "2023",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "7ee76cfd-cfe6-4698-8a02-429047173856",
+            "name": "Сорвиголова",
+            "year": "2023",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "3f8f6bbe-eeb3-430b-8356-718caadfb930",
+            "name": "Начало",
+            "year": "2015",
+            "filmImage": "",
+            "categoryName": "new"
+        },
+        {
+            "id": "80a30a69-08bb-464f-bd5f-a851216caa2b",
+            "name": "Сумерки",
+            "year": "2010",
+            "filmImage": "",
+            "categoryName": "new"
+        }
+    ],
+
+    "categoryList": [
+        {
+            "id": "0a256070-cdd1-4392-aab6-23fb0bbbd3f2",
+            "name": "Новинки",
+            "type": "NewFilms"
+        },
+        {
+            "id": "8c8e4efa-729b-44d2-8692-3e5e978f7303",
+            "name": "Драма",
+            "type": "Drama"
+        },
+        {
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "name": "Комедии",
+            "type": "Comedy"
         }
     ]
 }
