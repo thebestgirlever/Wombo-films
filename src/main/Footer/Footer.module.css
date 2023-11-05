@@ -52,4 +52,146 @@
 .icon {
     width: 30px;
     height: 30px;
+    padding-left: 10px;
+}
+
+
+@media (max-width: 1440px) {
+    
+    .left {
+        padding-left: 80px;
+        padding-top: 24px;
+    }
+    
+    .menu {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .right {
+        padding-right: 80px;
+    }
+}
+@media (max-width: 1150px) {
+    .left__title {
+        font-size: 14px;
+        padding-bottom: 1px;
+    }
+    
+    .left__text {
+        font-size: 10px;
+    }
+    .center__text {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .block {
+        height: 76px;
+    }
+    
+    .left {
+        padding-left: 40px;
+        padding-top: 16px;
+    }
+    
+    .left__title {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+    
+    .left__text {
+        font-size: 10px;
+    }
+
+    .center__text {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    
+    .right {
+        padding-right: 40px;
+    }
+    
+    .icon {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width:768px) {
+    .block {
+        height: 60px;
+    }
+    
+    .left {
+        padding-left: 32px;
+        padding-top: 14px;
+    }
+    
+    .left__text {
+        font-size: 7px;
+    }
+    
+    .center__text {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    
+    .right {
+        padding-right: 32px;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24px;
+        padding-left: 8px;
+    }
+}
+
+@media (max-width:720px) {
+    .block {
+        display: flex;
+        flex-direction: column;
+        height: 155px;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 16px;
+    }
+    
+    .left__title {
+        font-size: 14px;
+    }
+    
+    .left__text {
+        width: 140px;
+        font-size: 7px;
+    }
+    
+    .menu {
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    
+    .center__text {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    
+    .right {
+        justify-content:center;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24;
+        padding-left: 16px;
+    }
 }

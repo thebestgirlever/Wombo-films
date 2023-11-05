@@ -1,53 +1,117 @@
 {
     "filmList": [
+
+        {
+            "id": "80a30a69-08bb-464f-bd5f-a851216caa2b",
+            "name": "Сумерки",
+            "year": "2010",
+            "filmImage": "",
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": true,
+            "isAction": false,
+            "isComedy": false,
+            "isDrama": false,
+            "isHorror": false,
+            "isRomance": true,
+            "permission": "16+",
+            "discription":"сто раз смотрела: девочка влюбляется в парня, а он оказывается вампиром, потом ее кидает, она мутит с волком, но вампиру не нравится, и он отбивает ее обратно"
+        },
         {
             "id": "642dfb2c-9a08-4656-a0cf-ef0fb327cc7f",
             "name": "Стражи Галактики. Часть 2",
             "year": "2018",
             "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": true,
+            "isAction": true,
+            "isComedy": true,
+            "isDrama": false,
+            "isHorror": false,
+            "isRomance": false,
+            "permission": "16+",
+            "discription":"Оставшиеся в живых члены команды Мстителей и их союзники должны разработать новый план, который поможет противостоять разрушительным действиям могущественного титана Таноса."
         },
         {
             "id": "d6517a7d-d6e5-4140-9fd4-af8b0d6262cc",
             "name": "Судная ночь. Начало",
             "year": "2014",
             "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": false,
+            "isAction": true,
+            "isComedy": false,
+            "isDrama": false,
+            "isHorror": true,
+            "isRomance": false,
+            "permission": "18+",
+            "discription":"Кто то кого то постоянно убивает, кровь кишки везде. какие то люди хотят выжить, но кто то их убивает"
         },
         {
             "id": "daa43958-47d5-4480-a64b-d43469a3815f",
             "name": "Ничего хорошего в отеле",
             "year": "2014",
             "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": false,
+            "isAction": true,
+            "isComedy": true,
+            "isDrama": false,
+            "isHorror": true,
+            "isRomance": false,
+            "permission": "16+",
+            "discription":"в каком то отеле не происходит ничего хорошего"
         },
         {
             "id": "4cfb471e-076a-4b10-a0c6-42c221a96c1d",
             "name": "Мир Юрского периода 2",
             "year": "2014",
             "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": true,
+            "isAction": true,
+            "isComedy": true,
+            "isDrama": false,
+            "isHorror": false,
+            "isRomance": false,
+            "permission": "16+",
+            "discription":"люди решили воссоздать эпоху динозавров. штож, посмотрим что из этого вышло"
         },
         {
             "id": "7ee76cfd-cfe6-4698-8a02-429047173856",
             "name": "Сорвиголова",
             "year": "2014",
             "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": true,
+            "isAction": true,
+            "isComedy": true,
+            "isDrama": false,
+            "isHorror": false,
+            "isRomance": false,
+            "permission": "16+",
+            "discription":"вроде какой то супер герой быстрый, бегает где то, наверняка кого то"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb930",
             "name": "Начало",
             "year": "2015",
             "filmImage": "",
-            "categoryName": "new"
-        },
-        {
-            "id": "80a30a69-08bb-464f-bd5f-a851216caa2b",
-            "name": "Сумерки",
-            "year": "2010",
-            "filmImage": "",
-            "categoryName": "new"
+            "categoryName": "new",
+            "country": "США",
+            "isFantastic": true,
+            "isAction": true,
+            "isComedy": false,
+            "isDrama": false,
+            "isHorror": false,
+            "isRomance": false,
+            "permission": "16+",
+            "discription":"ООО мой один из любимых фильмов, Леонардо Ди Каприо как обычно красавичк, спит и тусуется одновременно. Это моя мечта"
         }
     ],
     "filmListNew": [

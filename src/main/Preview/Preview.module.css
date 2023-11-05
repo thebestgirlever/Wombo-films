@@ -1,27 +1,32 @@
 .block {
     margin: 0;
-    height: 700px;
-    background-color: #0E0303;
+    background-color: #210A0B;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
 }
+
+
+
 @media (max-width: 1440px) {
     .block{
-        height: 600px;
+        padding-bottom: 50px;
     }
 }
 
 @media (max-width: 1024px) {
     .block{
-        height: 400px;
+        padding-bottom: 40px;
     }
 }
 
 @media (max-width:768px) {
     .block{
-        height: 300px;
+        padding-bottom: 30px;
     }
 }
+
 @media (max-width:320px) {
-    .block{
-        height: 260px;
-    }
+
 }

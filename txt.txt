@@ -54,3 +54,26 @@ const Gallery = () => {
       />
       <List items={productList} />
     </div>
+
+
+
+    <div className={styles.title}>{item.name}</div>
+            <div className={styles.tags}>
+                <div className={styles.year}>{item.year}</div>
+                <div className={styles.country}>{item.country}</div>
+                <div className={styles.isFantastic}>Фантастика</div>
+                <div className={styles.isAction}>Боевик</div>
+                <div className={styles.permission}>{item.permission}</div>
+            </div>
+            <div className={styles.discription}>{item.discription}</div>
+            <button className={styles.whatch}>Смотреть</button>
+            <button className={styles.trailer}>Трейлер</button>
+
+            Action.
+Comedy.
+Drama.
+Fantasy.
+Horror.
+Mystery.
+Romance.
+Thriller.

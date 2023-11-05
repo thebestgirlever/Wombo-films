@@ -26,3 +26,69 @@
     font-size: 12px;
     font-weight: 500;
 }
+@media (max-width: 1440px) {
+    .item {
+        width: 180px;
+        height: 310px;
+        padding-right: 40px;
+    }
+    
+    .roll__image {
+        width: 180px;
+        height: 268px;
+    }
+    
+    .movie__name {
+        font-size: 14px;
+        padding-bottom: 1px;
+    }
+    
+    .year {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .item {
+        width: 137px;
+        height: 234px;
+        padding-right: 24px;
+    }
+    
+    .roll__image {
+        width: 137px;
+        height: 204px;
+    }
+    
+    .movie__name {
+        font-size: 11px;
+        padding-top: 8px;
+        padding-bottom: 1px;
+    }
+    .year {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:320px) {
+    .item {
+        width: 91px;
+        height: 135px;
+        padding-right: 7px;
+    }
+    
+    .roll__image {
+        width: 91px;
+        height: 135px;
+    }
+    
+    .movie__name {
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    .year {
+        font-size: 0px;
+        padding: 0;
+    }
+}

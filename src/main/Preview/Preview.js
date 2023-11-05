@@ -1,10 +1,28 @@
+import { useState } from 'react';
 import styles from './Preview.module.css';
-import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './BG.png';
+import Film from './Film';
 
-function Preview() {
+import Slider from 'react-slick';
+import "./slick.css";
+import "./slick-theme.css";
+
+function Preview( {items} ) {
+    
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+
     return (
-        <h1 className={styles.block}>ff</h1>
+        <div className={styles.block}>
+            <Slider className={styles.bottom} {...settings}>
+                {items?.map(item => <Film item={item} key={item.id} />)}
+            </Slider>
+        </div>
     );
 }
 
