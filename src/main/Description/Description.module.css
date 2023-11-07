@@ -1,5 +1,5 @@
 .block {
-    height: 240px;
+    /* height: 240px; */
     background: #2E0C0D;
 }
 
@@ -27,7 +27,7 @@
 
 @media (max-width: 1440px) {
     .block {
-        height: 280px;
+        /* height: 280px; */
     }
     
     .title {
@@ -49,7 +49,7 @@
 
 @media (max-width: 1200px) {
     .block {
-        height: 220px;
+        /* height: 220px; */
     }
     
     .title {
@@ -71,7 +71,7 @@
 
 @media (max-width:900px) {
     .block {
-        height: 200px;
+        /* height: 200px; */
     }
     
     .title {
