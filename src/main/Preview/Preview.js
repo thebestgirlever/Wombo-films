@@ -1,10 +1,7 @@
-import { useState } from 'react';
 import styles from './Preview.module.css';
 import Film from './Film';
 
 import Slider from 'react-slick';
-import "./slick.css";
-import "./slick-theme.css";
 
 function Preview({ items }) {
 
@@ -13,7 +10,10 @@ function Preview({ items }) {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        appendDots: dots => (
+            <ul style={{ margin: "0px" }}> {dots} </ul>
+        ),
     }
 
     return (

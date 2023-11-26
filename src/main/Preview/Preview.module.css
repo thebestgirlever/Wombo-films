@@ -1,11 +1,12 @@
 .block {
+    overflow: hidden;
     margin: 0;
     background-color: #210A0B;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
-    background-image: url('./ExmplPic.png');
+    /* padding-bottom: 60px; */
+    /* background-image: url('./bg.png'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,19 +15,19 @@
 
 @media (max-width: 1440px) {
     .block{
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 }
 
 @media (max-width: 1024px) {
     .block{
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
     }
 }
 
 @media (max-width:768px) {
     .block{
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 }
 
