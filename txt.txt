@@ -77,3 +77,12 @@ Horror.
 Mystery.
 Romance.
 Thriller.
+
+
+ <button
+  key={item.id}
+  className={`${styles.button} ${item.type === current ? styles.button_active : ''}`}
+  onClick={() => onCurrentChange(item.type)}
+>
+  {item.name}
+</button>

@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import styles from './Preview.module.css';
-import ExampleCarouselImage from './BG.png';
 import Film from './Film';
 
 import Slider from 'react-slick';
 import "./slick.css";
 import "./slick-theme.css";
 
-function Preview( {items} ) {
-    
+function Preview({ items }) {
+
     const settings = {
         dots: true,
         infinite: true,

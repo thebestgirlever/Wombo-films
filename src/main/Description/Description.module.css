@@ -1,5 +1,4 @@
 .block {
-    height: 240px;
     background: #2E0C0D;
 }
 
@@ -16,31 +15,32 @@
     gap: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 20px;
 }
 
 .text {
     color: #FFD5BC;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 4100!important;
     line-height: 24px;
+    background: -webkit-linear-gradient(#FFD5BC, #986243);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 1440px) {
-    .block {
-        height: 280px;
-    }
-    
+
     .title {
         font-size: 24px;
         padding: 40px 0 20px 80px;
     }
-    
+
     .bottom {
         gap: 40px;
         padding-left: 80px;
         padding-right: 80px;
     }
-    
+
     .text {
         font-size: 14px;
         line-height: 24px;
@@ -48,21 +48,19 @@
 }
 
 @media (max-width: 1200px) {
-    .block {
-        height: 220px;
-    }
-    
+
     .title {
         font-size: 18px;
         padding: 35px 70px 20px 40px;
     }
-    
+
     .bottom {
         gap: 30px;
         padding-left: 40px;
         padding-right: 40px;
+        padding-bottom: 15px;
     }
-    
+
     .text {
         font-size: 12px;
         line-height: 18px;
@@ -70,26 +68,26 @@
 }
 
 @media (max-width:900px) {
-    .block {
-        height: 200px;
-    }
-    
+
+
     .title {
         font-size: 14px;
         padding: 24px 32px 18px 32px;
     }
-    
+
     .bottom {
         gap: 20px;
         padding-left: 32px;
         padding-right: 32px;
+        padding-bottom: 10px;
     }
-    
+
     .text {
         font-size: 10px;
         line-height: 16px;
     }
 }
+
 @media (max-width:760px) {
     .text {
         font-size: 7px;
@@ -97,17 +95,16 @@
 }
 
 @media (max-width:361px) {
-    .block {
-        height: 61px;
-    }
-    
+
     .title {
         font-size: 12px;
         padding: 16px;
     }
-    .bottom{
+
+    .bottom {
         display: none;
     }
+
     .text {
         font-size: 0px;
     }
