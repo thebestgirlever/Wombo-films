@@ -4,7 +4,7 @@ import styles from './Film.module.css';
 function Film({ item }) {
     return (
         <>
-            <div className={styles.wrapper} style={{ backgroundImage: `url(${item.bg || '/img/bg.png'})` }}>
+            <div className={styles.wrapper} style={{ backgroundImage: `url(${item.bg || '/img/Avengers.png'})` }}>
                 <div className={styles.shadow} />
                 <div className={styles.item}>
                     <div className={styles.title}>{item.name}</div>

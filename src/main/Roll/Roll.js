@@ -49,7 +49,7 @@ const ROLL_SETTINGS = {
                 }
             }
         ]
-      
+
     },
     [ROLL_TYPE.HORIZONTAL]: {
         dots: false,
@@ -80,9 +80,9 @@ const ROLL_SETTINGS = {
 }
 
 
-function Roll({ items, type = ROLL_TYPE.VERTICAL, title='Новинки 2023', moreLinkText='Все новинки' }) {
+function Roll({ items, type = ROLL_TYPE.VERTICAL, title = 'Новинки 2023', moreLinkText = 'Все новинки' }) {
     const settings = ROLL_SETTINGS[type]
-    
+
     return (
         <div className={styles.roll__block}>
             <div className={styles.top}>

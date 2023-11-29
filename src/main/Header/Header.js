@@ -52,7 +52,7 @@ function Header() {
                 </div>
             </div>
             <div className={styles.search}>
-                <input
+                <input className={styles.input__search}
                     type="text"
                     placeholder="ПОИСК"
                     // onChange={e => {

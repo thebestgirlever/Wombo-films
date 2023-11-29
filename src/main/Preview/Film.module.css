@@ -11,7 +11,7 @@
   font-size: 80px;
   font-weight: 300;
   padding-left: 100px;
-  padding-top: 390px;
+  padding-top: 550px;
   padding-bottom: 19px;
 }
 
@@ -84,12 +84,12 @@
   /* display: none; */
   position: absolute;
   width: 100%;
-  top: 200px;
+  top: 450px;
   bottom: -100px;
   background: linear-gradient(0deg, #210a0b 0%, rgba(33, 10, 11, 0) 100%);
 
   /* background-color: red; */
-  /* z-index: 100; */
+  z-index: 100;
   margin-bottom: 50px;
 }
 
@@ -97,7 +97,7 @@
   .title {
     font-size: 60px;
     padding-left: 80px;
-    padding-top: 500px;
+    padding-top: 400px;
     padding-bottom: 17px;
   }
 
@@ -129,13 +129,19 @@
     height: 40px;
     font-size: 16px;
   }
+  .shadow {
+    top: 350px;
+    bottom: -100px;
+    background: linear-gradient(0deg, #210a0b 0%, rgba(33, 10, 11, 0) 100%);
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
   .title {
     font-size: 48px;
     padding-left: 40px;
-    padding-top: 160px;
+    padding-top: 200px;
     padding-bottom: 12px;
   }
 
@@ -177,7 +183,7 @@
   .title {
     font-size: 36px;
     padding-left: 32px;
-    padding-top: 148px;
+    padding-top: 145px;
     padding-bottom: 7px;
   }
 
@@ -224,7 +230,7 @@
   .title {
     font-size: 24px;
     padding-left: 16px;
-    padding-top: 82px;
+    padding-top: 120px;
     padding-bottom: 10px;
   }
 
