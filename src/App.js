@@ -1,5 +1,7 @@
 import qs from 'query-string'
 
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+
 import Header from './main/Header/Header';
 import Preview from './main/Preview/Preview';
 import Roll, { ROLL_TYPE } from './main/Roll/Roll';
@@ -27,35 +29,22 @@ const filter = (list = [], categoryName = false, isTrill = false, isFantastic = 
 
 const getComedyFilms = (item) => item.isComedy
 
-function App() {
 
-  const query = qs.parse(window.location.search)
-
-  const [categoryName, setCategoryName] = useState(() => Boolean(query?.categoryName === 'true'))
-
-  const [isTrill, setIsTrill] = useState(() => Boolean(query?.isTrill === 'true'))
-  const [isFantastic, setIsFantastic] = useState(() => Boolean(query?.isFantastic === 'true'))
-  const [isAction, setIsAction] = useState(() => Boolean(query?.isAction === 'true'))
-  const [isComedy, setIsComedy] = useState(() => Boolean(query?.isComedy === 'true'))
-  const [isDrama, setIsDrama] = useState(() => Boolean(query?.isDrama === 'true'))
-  const [isHorror, setIsHorror] = useState(() => Boolean(query?.isHorror === 'true'))
-  const [isRomance, setIsRomance] = useState(() => Boolean(query?.isRomance === 'true'))
-
-  const [filmList, setFilmList] = useState(data.filmList)
-
-  const onIsTrill = () => {
-    const nextIsTrill = !isTrill
-    const nextFilmList = filter(categoryName, nextIsTrill, isFantastic,
-      isAction, isComedy, isDrama, isHorror, isRomance)
-
-    setIsTrill(nextIsTrill)
-    setFilmList(nextFilmList)
-  }
-
-
+function Layout() {
   return (
     <div className={styles.application}>
       <Header />
+      <Outlet />
+      <Footer />
+    </div>
+  )
+}
+
+function Home() {
+  const [filmList, setFilmList] = useState(data.filmList)
+
+  return (
+    <>
       <Preview items={filmList} />
       <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Новинки' moreLinkText='Все новинки' />
       <Description />
@@ -65,13 +54,52 @@ function App() {
         type={ROLL_TYPE.VERTICAL}
         title='Детективы'
         moreLinkText='Смотреть'
-        onIsTrill={onIsTrill}
-        isTrill={isTrill}
       />
       <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Мелодрамы' moreLinkText='Смотреть' />
-      <Footer />
-    </div>
-  );
+
+    </>
+  )
+}
+
+function Catalog() {
+  return (
+    <>
+      <div>
+        <div>
+          <Link>Главная</Link>
+          <div>|</div>
+          <div>Фильмы</div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+function Product() {
+  return (
+    <>
+      <div>Movies</div>
+    </>
+  )
+}
+
+function NoMatch () {
+  return (
+    <div>404</div>
+  )
+}
+
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="*" element={<NoMatch />} />
+      </Route>
+    </Routes>);
 }
 
 export default App;

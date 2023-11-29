@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import styles from './Header.module.css';
-
+import {  Link } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
                     <div className={clsx(styles.mini__menu, {
                         [styles.mini__menu_opend]: isOpen
                     })} >
-                        <div className={styles.mini__menu__item} href="/movies">Фильмы</div>
+                        <Link className={styles.mini__menu__item} to="/movies">Фильмы</Link>
                         <div className={styles.mini__menu__item} href="/cartoons">Мультфильмы</div>
                         <div className={styles.mini__menu__item} href="/series">Сериалы</div>
                         <div className={styles.mini__menu__item} href="/collections">
