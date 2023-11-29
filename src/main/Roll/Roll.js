@@ -29,8 +29,8 @@ const ROLL_SETTINGS = {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         nextArrow: <ArrowNext />,
         prevArrow: <ArrowPrev />,
         responsive: [
@@ -90,7 +90,7 @@ function Roll({ items, type = ROLL_TYPE.VERTICAL, title = 'Новинки 2023',
                 <a className={styles.more} href="/new">{moreLinkText}</a>
             </div>
             <Slider className={styles.bottom} {...settings}>
-                {items?.map(item => <Item item={item} key={item.id} />)}
+                {items?.map(item => <Item item={item} key={item.id} type={type} />)}
             </Slider>
         </div>
 
