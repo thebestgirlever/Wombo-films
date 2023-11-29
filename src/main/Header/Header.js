@@ -1,27 +1,39 @@
+import clsx from 'clsx'
 import styles from './Header.module.css';
 
 import { useEffect, useState } from 'react';
 
 function Header() {
+    const [isOpen, setIsOpen] = useState(false)    
+    
+    const onBurgerClick = () => {
+        setIsOpen(value => !value)
+    }
+    
     return (
         <div className={styles.Header}>
             <div className={styles.left}>
                 <div className={styles.burger}>
-                    <div className={styles.menu__icon}>
+                    <div className={styles.menu__icon} onClick={onBurgerClick}>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.99719 5C2.44646 5 2 4.55228 2 4C2 3.44772 2.44646 3 2.99719 3H17.0028C17.5535 3 18 3.44772 18 4C18 4.55228 17.5535 5 17.0028 5H2.99719Z" fill="white" />
                             <path d="M2.99719 11C2.44646 11 2 10.5523 2 10C2 9.44772 2.44646 9 2.99719 9H17.0028C17.5535 9 18 9.44772 18 10C18 10.5523 17.5535 11 17.0028 11H2.99719Z" fill="white" />
                             <path d="M2.99719 17C2.44646 17 2 16.5523 2 16C2 15.4477 2.44646 15 2.99719 15H17.0028C17.5535 15 18 15.4477 18 16C18 16.5523 17.5535 17 17.0028 17H2.99719Z" fill="white" />
                         </svg>
                     </div>
-                    <div className={styles.mini__menu} >
-                        <div className={styles.text__menu} href="/movies">Фильмы</div>
-                        <div className={styles.text__menu} href="/cartoons">Мультфильмы</div>
-                        <div className={styles.text__menu} href="/series">Сериалы</div>
-                        <div className={styles.text__menu} href="/collections">
+                    <div className={clsx(styles.mini__menu__overlay, {
+                        [styles.mini__menu__overlay_opend]: isOpen
+                    })} onClick={onBurgerClick} />
+                    <div className={clsx(styles.mini__menu, {
+                        [styles.mini__menu_opend]: isOpen
+                    })} >
+                        <div className={styles.mini__menu__item} href="/movies">Фильмы</div>
+                        <div className={styles.mini__menu__item} href="/cartoons">Мультфильмы</div>
+                        <div className={styles.mini__menu__item} href="/series">Сериалы</div>
+                        <div className={styles.mini__menu__item} href="/collections">
                             Подборки
                         </div>
-                        <div className={styles.text__menu} href="/new">
+                        <div className={styles.mini__menu__item} href="/new">
                             Новинки
                         </div>
                     </div>
@@ -41,6 +53,7 @@ function Header() {
                         </svg>
                     </a>
                 </div>
+
                 <div className={styles.main__menu}>
                     <ul className={styles.menu}>
                         <a className={styles.text} href='/movies'><li>Фильмы</li></a>

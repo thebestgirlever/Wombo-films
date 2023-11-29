@@ -6,6 +6,7 @@
             "year": "2010",
             "categoryName": "new",
             "country": "США",
+            
             "isTrill": false,
             "isFantastic": true,
             "isAction": false,
@@ -13,6 +14,7 @@
             "isDrama": false,
             "isHorror": false,
             "isRomance": true,
+            
             "permission": "16+",
             "discription": "сто раз смотрела: девочка влюбляется в парня, а он оказывается вампиром, потом ее кидает, она мутит с волком, но вампиру не нравится, и он отбивает ее обратно",
             "bg": "/img/twiling.png",

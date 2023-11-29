@@ -25,12 +25,14 @@ const filter = (list = [], categoryName = false, isTrill = false, isFantastic = 
   return next
 }
 
+const getComedyFilms = (item) => item.isComedy
 
 function App() {
 
   const query = qs.parse(window.location.search)
 
   const [categoryName, setCategoryName] = useState(() => Boolean(query?.categoryName === 'true'))
+
   const [isTrill, setIsTrill] = useState(() => Boolean(query?.isTrill === 'true'))
   const [isFantastic, setIsFantastic] = useState(() => Boolean(query?.isFantastic === 'true'))
   const [isAction, setIsAction] = useState(() => Boolean(query?.isAction === 'true'))
@@ -38,16 +40,18 @@ function App() {
   const [isDrama, setIsDrama] = useState(() => Boolean(query?.isDrama === 'true'))
   const [isHorror, setIsHorror] = useState(() => Boolean(query?.isHorror === 'true'))
   const [isRomance, setIsRomance] = useState(() => Boolean(query?.isRomance === 'true'))
+
   const [filmList, setFilmList] = useState(data.filmList)
 
   const onIsTrill = () => {
     const nextIsTrill = !isTrill
-    const nextFilmList = filter(categoryName, nextIsTrill, isFantastic, 
+    const nextFilmList = filter(categoryName, nextIsTrill, isFantastic,
       isAction, isComedy, isDrama, isHorror, isRomance)
 
     setIsTrill(nextIsTrill)
     setFilmList(nextFilmList)
   }
+
 
   return (
     <div className={styles.application}>
@@ -56,11 +60,11 @@ function App() {
       <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Новинки' moreLinkText='Все новинки' />
       <Description />
       <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Комедии' moreLinkText='Смотреть' />
-      <Roll 
-        items={filmList} 
-        type={ROLL_TYPE.VERTICAL} 
-        title='Детективы' 
-        moreLinkText='Смотреть' 
+      <Roll
+        items={filmList.filter(getComedyFilms)}
+        type={ROLL_TYPE.VERTICAL}
+        title='Детективы'
+        moreLinkText='Смотреть'
         onIsTrill={onIsTrill}
         isTrill={isTrill}
       />

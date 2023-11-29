@@ -90,7 +90,7 @@ function Roll({ items, type = ROLL_TYPE.VERTICAL, title = 'Новинки 2023',
                 <a className={styles.more} href="/new">{moreLinkText}</a>
             </div>
             <Slider className={styles.bottom} {...settings}>
-                {items?.map(item => <Item item={item} key={item.id} type={type} />)}
+                {items?.map(item => <Item item={item} key={`item-${111}`} type={type} />)}
             </Slider>
         </div>
 

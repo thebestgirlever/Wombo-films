@@ -122,7 +122,6 @@
 
 .arrow {
   position: absolute;
-  z-index: 100;
   cursor: pointer;
 }
 
