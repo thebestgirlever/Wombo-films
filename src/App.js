@@ -1,13 +1,11 @@
-import qs from 'query-string'
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 import Header from './main/Header/Header';
-import Preview from './main/Preview/Preview';
-import Roll, { ROLL_TYPE } from './main/Roll/Roll';
-import Description from './main/Description/Description';
 import Footer from './main/Footer/Footer';
-
+import Home from './page/Home';
+import Catalog from './main/Catalog/Catalog';
+import Roll, { ROLL_TYPE } from './main/Roll/Roll';
 import data from './data.json'
 
 import styles from './App.module.css';
@@ -27,7 +25,7 @@ const filter = (list = [], categoryName = false, isTrill = false, isFantastic = 
   return next
 }
 
-const getComedyFilms = (item) => item.isComedy
+
 
 
 function Layout() {
@@ -40,37 +38,78 @@ function Layout() {
   )
 }
 
-function Home() {
-  const [filmList, setFilmList] = useState(data.filmList)
 
+function Movies() {
+  const [filmList, setFilmList] = useState(data.filmList)
   return (
     <>
-      <Preview items={filmList} />
-      <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Новинки' moreLinkText='Все новинки' />
-      <Description />
-      <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Комедии' moreLinkText='Смотреть' />
-      <Roll
-        items={filmList.filter(getComedyFilms)}
-        type={ROLL_TYPE.VERTICAL}
-        title='Детективы'
-        moreLinkText='Смотреть'
+      <Catalog
+        items={filmList}
+        type={ROLL_TYPE.HORIZONTAL}
+        title='Фильмы'
       />
-      <Roll items={filmList} type={ROLL_TYPE.HORIZONTAL} title='Мелодрамы' moreLinkText='Смотреть' />
-
     </>
   )
 }
 
-function Catalog() {
+function Cartoons() {
+
+  const [filmList, setFilmList] = useState(data.filmList)
+
   return (
     <>
-      <div>
-        <div>
-          <Link>Главная</Link>
-          <div>|</div>
-          <div>Фильмы</div>
-        </div>
-      </div>
+      <Catalog
+        items={filmList}
+        type={ROLL_TYPE.HORIZONTAL}
+        title='Мультфильмы'
+      />
+    </>
+  )
+}
+
+function Series() {
+
+  const [filmList, setFilmList] = useState(data.filmList)
+
+  return (
+    <>
+      <Catalog
+        items={filmList}
+        type={ROLL_TYPE.HORIZONTAL}
+        title='Сериалы'
+      />
+    </>
+  )
+}
+
+function Сolections() {
+
+  const [filmList, setFilmList] = useState(data.filmList)
+
+  return (
+    <>
+      <Catalog
+        items={filmList}
+        type={ROLL_TYPE.HORIZONTAL}
+        title='Подборки'
+      />
+    </>
+  )
+}
+
+const getNewFilms = (item) => item.isNew
+
+function NewFilms() {
+
+  const [filmList, setFilmList] = useState(data.filmList)
+
+  return (
+    <>
+      <Catalog
+        items={filmList.filter(getNewFilms)}
+        type={ROLL_TYPE.HORIZONTAL}
+        title='Новинки'
+      />
     </>
   )
 }
@@ -83,7 +122,7 @@ function Product() {
   )
 }
 
-function NoMatch () {
+function NoMatch() {
   return (
     <div>404</div>
   )
@@ -94,8 +133,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/home" index element={<Home />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/cartoons" element={<Cartoons />} />
+        <Route path="/series" element={<Series />} />
+        <Route path="/colections" element={<Сolections />} />
+        <Route path="/new" element={<NewFilms />} />
         <Route path="/product" element={<Product />} />
         <Route path="*" element={<NoMatch />} />
       </Route>

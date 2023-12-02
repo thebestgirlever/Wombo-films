@@ -1,4 +1,4 @@
-import Item from "./Item";
+import Item from "../../components/Item/Item";
 import cn from 'classnames';
 import styles from './Roll.module.css';
 
@@ -25,7 +25,7 @@ export const ROLL_TYPE = {
 }
 
 const ROLL_SETTINGS = {
-    [ROLL_TYPE.VERTICAL]: {
+    [ROLL_TYPE.HORIZONTAL]: {
         dots: false,
         infinite: true,
         speed: 500,
@@ -35,7 +35,7 @@ const ROLL_SETTINGS = {
         prevArrow: <ArrowPrev />,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 4,
@@ -44,14 +44,14 @@ const ROLL_SETTINGS = {
             {
                 breakpoint: 320,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             }
         ]
 
     },
-    [ROLL_TYPE.HORIZONTAL]: {
+    [ROLL_TYPE.VERTICAL]: {
         dots: false,
         // infinite: true,
         speed: 500,
@@ -61,7 +61,7 @@ const ROLL_SETTINGS = {
         prevArrow: <ArrowPrev />,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 4,

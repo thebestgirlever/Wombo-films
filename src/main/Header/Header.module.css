@@ -40,26 +40,30 @@
 .mini__menu_opend {
   display: flex;
   flex-direction: column;
+  width: 160px;
+  height: 260px;
+  border-radius: 15px;
 }
 
 .mini__menu__overlay {
   display: none;
   flex-direction: column;
   position: fixed;
-  top: 56px;
+  top: 0px;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.5);
+  /* backdrop-filter: blur(10px); */
 }
 .mini__menu__overlay_opend {
     display: block;
 }
 
 .mini__menu__item {
-  padding: 20px;
+  padding: 15px;
   color: #fff;
+  border-radius: 4px;
 }
 
 .menu {

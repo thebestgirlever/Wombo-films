@@ -1,0 +1,124 @@
+.bread__crumbs {
+    padding-top: 120px;
+    padding-left: 100px;
+    color: #FFD5BC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5985;
+}
+
+.title {
+    color: #FFF;
+    padding-left: 100px;
+    font-size: 80px;
+    font-weight: 300;
+    padding-top: 32px;
+    margin: 0;
+}
+
+.description {
+    color: #FFD5BC;
+    padding-left: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6037;
+    padding-top: 30px;
+    width: 70%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    padding: 60px;
+    padding-left: 80px;
+}
+
+.home {
+    color: #FFD5BC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+@media (max-width: 1440px) {
+    .bread__crumbs {
+        padding-top: 110px;
+        padding-left: 80px;
+    }
+
+    .title {
+        font-size: 60px;
+        padding-left: 80px;
+    }
+
+    .description {
+        padding-left: 80px;
+    }
+
+    .list {
+        padding-left: 60px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .home{
+        font-size: 12px;
+    }
+    .bread__crumbs {
+        padding-top: 100px;
+        padding-left: 32px;
+        font-size: 12px;
+    }
+
+    .title {
+        padding-top: 13px;
+        font-size: 36px;
+        padding-left: 32px;
+    }
+
+    .description {
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 5px;
+        padding-left: 32px;
+    }
+
+    .list {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 32px 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home{
+        font-size: 8px;
+    }
+    .bread__crumbs {
+        padding-top: 70px;
+        padding-left: 16px;
+        font-size: 8px;
+    }
+
+    .title {
+        padding-top: 5px;
+        font-size: 24px;
+        padding-left: 16px;
+    }
+
+    .description {
+        font-size: 8px;
+        line-height: 12px;
+        padding-top: 2px;
+        padding-left: 16px;
+    }
+
+    .list {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 24px 13px;
+    }
+}
