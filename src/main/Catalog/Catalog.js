@@ -1,16 +1,18 @@
 import Item from "../../components/Item/Item";
-import styles from './Catalog.module.css';
 import Tag from '../../components/Tag/Tag'
 
 import data from '../../data.json'
 
 import { Link } from "react-router-dom"
 import { useState } from 'react';
+import styles from './Catalog.module.css';
 
 
 function Catalog({ items, text, title="Фильмы" }) {
 
-    const [categoryList, setcategoryList] = useState(data.categoryList)
+    const [categoryList, setCategoryList] = useState(data.categoryList)
+
+    // debugger
 
     return (
         <div className={styles.block}>
@@ -20,7 +22,8 @@ function Catalog({ items, text, title="Фильмы" }) {
                 Новинки кино, горячие премьеры и проверенные временем  фильмы — блокбастеры, детективы, драмы и комедии. Смотрите онлайн на ToFilm.ru
             </div>
             <div className={styles.tags}>
-                <Tag text={categoryList}/>
+                {/* {categoryList.map(item => console.log(item))} */}
+                {categoryList.map(item => <Tag key={item.id} text={item.name} />)}
             </div>
             <div className={styles.nav}></div>
             <div className={styles.list}>

@@ -40,7 +40,12 @@ function Layout() {
 
 
 function Movies() {
-  const [filmList, setFilmList] = useState(data.filmList)
+  const [filmList, setFilmList] = useState(() => data.filmList.filter(item => item.categoryName === 'movie'))
+
+
+  
+  // debugger
+
   return (
     <>
       <Catalog
@@ -133,7 +138,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/home" index element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/cartoons" element={<Cartoons />} />
         <Route path="/series" element={<Series />} />

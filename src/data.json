@@ -548,42 +548,42 @@
     ],
     "categoryList": [
         {
-            "id": "0a256070-cdd1-4392-aab6-23fb0bbbd3f2",
+            "id": "0a256070-cdd1-4392-aab6-23fb0bbbd3f21",
             "name": "Новинки",
             "type": "isNew"
         },
         {
-            "id": "8c8e4efa-729b-44d2-8692-3e5e978f7303",
+            "id": "8c8e4efa-729b-44d2-8692-3e5e978f73032",
             "name": "Триллеры",
             "type": "isTrill"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed3",
             "name": "Фантастика",
             "type": "isFantastic"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed4",
             "name": "Боевик",
             "type": "isAction"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed5",
             "name": "Комедии",
             "type": "isComedy"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed6",
             "name": "Драма",
             "type": "isDrama"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed7",
             "name": "Ужасы",
             "type": "isHorror"
         },
         {
-            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed",
+            "id": "ac13ad3d-470d-4200-a5a1-18b42895e9ed8",
             "name": "Мелодрама",
             "type": "isRomance"
         }
