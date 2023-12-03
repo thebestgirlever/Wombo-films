@@ -43,7 +43,7 @@ function Movies() {
   const [filmList, setFilmList] = useState(() => data.filmList.filter(item => item.categoryName === 'movie'))
 
 
-  
+
   // debugger
 
   return (
@@ -144,7 +144,7 @@ function App() {
         <Route path="/series" element={<Series />} />
         <Route path="/colections" element={<Сolections />} />
         <Route path="/new" element={<NewFilms />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/product/:id" element={<Product />} />
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>);

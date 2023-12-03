@@ -2,6 +2,7 @@
     "filmList": [
         {
             "id": "80a30a69-08bb-464f-bd5f-a851216caa2b",
+            "slug": "sumerki",
             "name": "Сумерки",
             "year": "2008",
             "categoryName": "movie",
@@ -22,6 +23,7 @@
         },
         {
             "id": "642dfb2c-9a08-4656-a0cf-ef0fb327cc7f",
+            "slug":"guardians-of-the-galaxy-part-2",
             "name": "Стражи Галактики. Часть 2",
             "year": "2018",
             "categoryName": "movie",
