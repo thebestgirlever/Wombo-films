@@ -1,9 +1,9 @@
 
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import Header from './main/Header/Header';
-import Footer from './main/Footer/Footer';
+import Layout from 'main/Layout/Layout';
 import Home from './page/Home';
+import PageProduct from './page/PageProduct';
 import Catalog from './main/Catalog/Catalog';
 import Roll, { ROLL_TYPE } from './main/Roll/Roll';
 import data from './data.json'
@@ -25,26 +25,8 @@ const filter = (list = [], categoryName = false, isTrill = false, isFantastic = 
   return next
 }
 
-
-
-
-function Layout() {
-  return (
-    <div className={styles.application}>
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
-  )
-}
-
-
 function Movies() {
   const [filmList, setFilmList] = useState(() => data.filmList.filter(item => item.categoryName === 'movie'))
-
-
-
-  // debugger
 
   return (
     <>
@@ -87,7 +69,7 @@ function Series() {
   )
 }
 
-function Сolections() {
+function Collections() {
 
   const [filmList, setFilmList] = useState(data.filmList)
 
@@ -119,14 +101,6 @@ function NewFilms() {
   )
 }
 
-function Product() {
-  return (
-    <>
-      <div>Movies</div>
-    </>
-  )
-}
-
 function NoMatch() {
   return (
     <div>404</div>
@@ -142,9 +116,9 @@ function App() {
         <Route path="/movies" element={<Movies />} />
         <Route path="/cartoons" element={<Cartoons />} />
         <Route path="/series" element={<Series />} />
-        <Route path="/colections" element={<Сolections />} />
+        <Route path="/colections" element={<Collections />} />
         <Route path="/new" element={<NewFilms />} />
-        <Route path="/product/:id" element={<Product />} />
+        <Route path="/product/:id" element={<PageProduct />} />
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>);
