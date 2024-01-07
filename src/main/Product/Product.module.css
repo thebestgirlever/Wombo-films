@@ -5,6 +5,7 @@
 
 .wrapper {
   background-size: cover;
+  position: relative;
 }
 
 .item {
@@ -95,15 +96,12 @@
 }
 
 .shadow {
-  /* display: none; */
   position: absolute;
   width: 100%;
-  top: 350px;
+  height: 350px;
   bottom: 0px;
   background: linear-gradient(0deg, #210a0b 0%, rgba(33, 10, 11, 0) 100%);
-  /* background: red; */
   z-index: 100;
-  margin-bottom: 580px;
 }
 
 .share__title {
