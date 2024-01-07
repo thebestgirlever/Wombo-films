@@ -8,7 +8,7 @@ import { useState } from 'react';
 import styles from './Catalog.module.css';
 
 
-function Catalog({ items, text, title="Фильмы" }) {
+function Catalog({ items, text, title = "Фильмы" }) {
 
     const [categoryList, setCategoryList] = useState(data.categoryList)
 
@@ -16,15 +16,13 @@ function Catalog({ items, text, title="Фильмы" }) {
 
     return (
         <div className={styles.block}>
+            <div className={styles.shadow}></div>
             <div className={styles.bread__crumbs}><a className={styles.home} href="/home">Главная</a>  /  {title}</div>
             <h1 className={styles.title}>{title} онлайн</h1>
             <div className={styles.description}>
                 Новинки кино, горячие премьеры и проверенные временем  фильмы — блокбастеры, детективы, драмы и комедии. Смотрите онлайн на ToFilm.ru
             </div>
-            <div className={styles.tags}>
-                {/* {categoryList.map(item => console.log(item))} */}
-                {categoryList.map(item => <Tag key={item.id} text={item.name} />)}
-            </div>
+
             <div className={styles.nav}></div>
             <div className={styles.list}>
                 {items?.map(item => <Item item={item} key={item.id} />)}

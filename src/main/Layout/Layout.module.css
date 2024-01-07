@@ -8,3 +8,22 @@
   padding: 100px 0 0 0;
   background: #210A0B;
 }
+
+
+@media (max-width: 1440px) {
+  .content {
+    padding: 80px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 64px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 56px 0 0 0;
+  }
+}

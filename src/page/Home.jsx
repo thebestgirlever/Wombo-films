@@ -36,7 +36,7 @@ function Home() {
             <Roll
                 items={filmList.filter(getTrillFilms)}
                 type={ROLL_TYPE.HORIZONTAL}
-                title='Детективы'
+                title='Триллеры'
                 moreLinkText='Смотреть'
             />
             <Roll

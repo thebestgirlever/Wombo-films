@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import styles from './Film.module.css';
 
+import { Link } from 'react-router-dom';
+
 function Film({ item }) {
     return (
         <>
             <div className={styles.wrapper} style={{ backgroundImage: `url(${item.bg || '/img/Avengers.png'})` }}>
                 <div className={styles.shadow} />
                 <div className={styles.item}>
+
                     <div className={styles.title}>{item.name}</div>
                     <div className={styles.tags}>
                         <div className={styles.tag}>{item.year}</div>
@@ -20,9 +23,12 @@ function Film({ item }) {
 
                         <div className={styles.permission}>{item.permission}</div>
                     </div>
+
                     <div className={styles.discription}>{item.discription}</div>
                     <div className={styles.buttons}>
-                        <button className={styles.watch}>Смотреть</button>
+                        <Link to={`/product/${item.id}`}>
+                            <button className={styles.watch}>Смотреть</button>
+                        </Link>
                         <button className={styles.trailer}>Трейлер</button>
                     </div>
                 </div>

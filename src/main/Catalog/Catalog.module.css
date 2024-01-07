@@ -1,5 +1,5 @@
 .bread__crumbs {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-left: 100px;
     color: #FFD5BC;
     font-size: 16px;
@@ -48,11 +48,18 @@
     padding: 24px 80px 40px;
 }
 
-
+.shadow {
+    background: radial-gradient(225.27% 59.48% at 50% 0%, rgba(97, 166, 250, 0.30) 0%, rgba(11, 13, 15, 0.00) 100%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 350px;
+    z-index: 20;
+}
 
 @media (max-width: 1440px) {
     .bread__crumbs {
-        padding-top: 110px;
+        padding-top: 30px;
         padding-left: 80px;
     }
 
@@ -68,14 +75,18 @@
     .list {
         padding-left: 60px;
     }
+    .shadow {
+        height: 250px;
+    }
 }
 
 @media (max-width: 768px) {
-    .home{
+    .home {
         font-size: 12px;
     }
+
     .bread__crumbs {
-        padding-top: 100px;
+        padding-top: 7px;
         padding-left: 32px;
         font-size: 12px;
     }
@@ -97,14 +108,19 @@
         grid-template-columns: repeat(4, 1fr);
         padding: 32px 20px;
     }
+
+    .shadow {
+        height: 200px;
+    }
 }
 
 @media (max-width: 320px) {
-    .home{
+    .home {
         font-size: 8px;
     }
+
     .bread__crumbs {
-        padding-top: 70px;
+        padding-top: 5px;
         padding-left: 16px;
         font-size: 8px;
     }
@@ -125,5 +141,8 @@
     .list {
         grid-template-columns: repeat(3, 1fr);
         padding: 24px 13px;
+    }
+    .shadow {
+        height: 200px;
     }
 }

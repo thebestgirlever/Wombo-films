@@ -8,7 +8,7 @@ function Item({ item, type = ROLL_TYPE.VERTICAL }) {
     console.log('item >>', item)
 
     return (
-        <Link to={`/product/${item.slug || item.id}`}>
+        <Link to={`/product/${item.id}`}>
             <div className={styles.item}>
                 <img className={styles.roll__image} src={src} alt="Movie" />
                 <div className={styles.movie__name}>{item.name}</div>

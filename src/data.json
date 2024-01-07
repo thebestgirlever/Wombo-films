@@ -19,7 +19,8 @@
             "permission": "16+",
             "discription": "сто раз смотрела: девочка влюбляется в парня, а он оказывается вампиром, потом ее кидает, она мутит с волком, но вампиру не нравится, и он отбивает ее обратно",
             "bg": "/img/twiling.png",
-            "poster_vertically": "/img/Rectangle-21.png"
+            "poster_vertically": "/img/Rectangle-21.png",
+            "video_trailer": "https://www.youtube.com/embed/xloy7UEhDSw?si=OH_fhXtOSe6i2qGp"
         },
         {
             "id": "642dfb2c-9a08-4656-a0cf-ef0fb327cc7f",
@@ -40,7 +41,8 @@
             "permission": "16+",
             "discription": "Оставшиеся в живых члены команды Мстителей и их союзники должны разработать новый план, который поможет противостоять разрушительным действиям могущественного титана Таноса.",
             "bg": "/img/Guardians.png",
-            "poster_vertically": "/img/Rectangle-22.png"
+            "poster_vertically": "/img/Rectangle-22.png",
+            "video_trailer": "https://www.youtube.com/embed/Q0XcBzmQq_k?si=8mxMImTsXq5Ot0xV"
         },
         {
             "id": "d6517a7d-d6e5-4140-9fd4-af8b0d6262cc",
@@ -60,7 +62,8 @@
             "permission": "18+",
             "discription": "Кто то кого то постоянно убивает, кровь кишки везде. какие то люди хотят выжить, но кто то их убивает",
             "bg": "/img/Purge.png",
-            "poster_vertically": "/img/Rectangle-20.png"
+            "poster_vertically": "/img/Rectangle-20.png",
+            "video_trailer": "https://www.youtube.com/embed/zNG8yEaWKuw?si=evxIo8rgmSSreiQ8"
         },
         {
             "id": "daa43958-47d5-4480-a64b-d43469a3815f",
@@ -80,7 +83,8 @@
             "permission": "16+",
             "discription": "в каком то отеле не происходит ничего хорошего",
             "bg": "/img/Hotel.png",
-            "poster_vertically":"/img/Rectangle-19.png"
+            "poster_vertically":"/img/Rectangle-19.png",
+            "video_trailer": "https://www.youtube.com/embed/UpwH6ixN9ak?si=sDHAMFVA_XnsW65H"
         },
         {
             "id": "4cfb471e-076a-4b10-a0c6-42c221a96c1d",
@@ -100,7 +104,8 @@
             "permission": "16+",
             "discription": "люди решили воссоздать эпоху динозавров. штож, посмотрим что из этого вышло",
             "bg": "/img/JurassicWorld.png",
-            "poster_vertically":"/img/Rectangle-17.png"
+            "poster_vertically":"/img/Rectangle-17.png",
+            "video_trailer": "https://www.youtube.com/embed/voKJeFVDyRs?si=WqyMeWFFoo9CEYvb"
         },
         {
             "id": "7ee76cfd-cfe6-4698-8a02-429047173856",
@@ -120,7 +125,8 @@
             "permission": "16+",
             "discription": "вроде какой то супер герой быстрый, бегает где то, наверняка кого то cпасает",
             "bg": "/img/Daredevil.png",
-            "poster_vertically": "/img/Rectangle-16.png"
+            "poster_vertically": "/img/Rectangle-16.png",
+            "video_trailer": "https://www.youtube.com/embed/WVRuPMYW8gk?si=94EiBtXyiq1lkIew"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb930",
@@ -140,7 +146,8 @@
             "permission": "16+",
             "discription": "ООО мой один из любимых фильмов, Леонардо Ди Каприо как обычно красавичк, спит и тусуется одновременно. Это моя мечта",
             "bg": "/img/Inception.png",
-            "poster_vertically":"/img/Rectangle-13.png"
+            "poster_vertically":"/img/Rectangle-13.png",
+            "video_trailer": "https://www.youtube.com/embed/85Zz1CCXyDI?si=Fy1KExh-oPQ33wka"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb931",
@@ -159,8 +166,9 @@
             "isRomance": false,
             "permission": "16+",
             "discription": "Веном",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-12.png"
+            "bg": "/img/BG-17.png",
+            "poster_vertically":"/img/Rectangle-12.png",
+            "video_trailer": "https://www.youtube.com/embed/n7GlLxV_Igk?si=XDCTRKdBPV-qnbZh"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb932",
@@ -179,8 +187,9 @@
             "isRomance": false,
             "permission": "16+",
             "discription": "Максимка",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-14.png"
+            "bg": "/img/BG-18.png",
+            "poster_vertically":"/img/Rectangle-14.png",
+            "video_trailer": "https://www.youtube.com/embed/yuJf6E_Gq5c?si=4EAQHupJ6xPbVsKX"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb933",
@@ -199,8 +208,9 @@
             "isRomance": false,
             "permission": "14+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-2.png"
+            "bg": "/img/BG-16.png",
+            "poster_vertically":"/img/Rectangle-2.png",
+            "video_trailer": "https://www.youtube.com/embed/qGpejFwCZS0?si=kAMOi4VdS5NVk3sH"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb934",
@@ -219,8 +229,9 @@
             "isRomance": false,
             "permission": "16+",
             "discription": "Веном",
-            "bg": "movie",
-            "poster_vertically":"/img/Rectangle-12.png"
+            "bg": "/img/BG-17.png",
+            "poster_vertically":"/img/Rectangle-12.png",
+            "video_trailer": "https://www.youtube.com/embed/n7GlLxV_Igk?si=XDCTRKdBPV-qnbZh"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb935",
@@ -237,15 +248,16 @@
             "isDrama": false,
             "isHorror": false,
             "isRomance": false,
-            "permission": "16+",
+            "permission": "18+",
             "discription": "лоро",
-            "bg": "",
+            "bg": "/img/BG.png",
             "poster_vertically":"/img/Rectangle-34.png",
-            "poster_horizontally":"/img/Rectangle-9.png"
+            "poster_horizontally":"/img/Rectangle-9.png",
+            "video_trailer": "https://www.youtube.com/embed/zIW4n0kW7i0?si=y5GmxqsvTt4xo6s9"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb936",
-            "name": "Оцепеневшие от стаха",
+            "name": "Оцепеневшие от страха",
             "year": "2014",
             "categoryName": "movie",
             "country": "США",
@@ -260,9 +272,10 @@
             "isRomance": false,
             "permission": "18+",
             "discription": "боюсь",
-            "bg": "movie",
+            "bg": "/img/BG-15.png",
             "poster_vertically":"/img/Rectangle-33.png",
-            "poster_horizontally":"/img/Rectangle-8.png"
+            "poster_horizontally":"/img/Rectangle-8.png",
+            "video_trailer": "https://www.youtube.com/embed/OCo-C_Bdyac?si=91P2p-tIR1HnNlnX"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb937",
@@ -281,9 +294,10 @@
             "isRomance": false,
             "permission": "18+",
             "discription": "ну человек, ну даешь!!!",
-            "bg": "movie",
+            "bg": "/img/BG-1.png",
             "poster_vertically":"/img/Rectangle-23.png",
-            "poster_horizontally":"/img/Rectangle-7.png"
+            "poster_horizontally":"/img/Rectangle-7.png",
+            "video_trailer": "https://www.youtube.com/embed/Ll0IKcj3xlM?si=cby1alVyrZn11A2z"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb938",
@@ -302,9 +316,10 @@
             "isRomance": false,
             "permission": "18+",
             "discription": "ну человек, ну даешь!!!",
-            "bg": "",
+            "bg": "/img/BG-14.png",
             "poster_vertically":"/img/Rectangle-36.png",
-            "poster_horizontally":"/img/Rectangle-6.png"
+            "poster_horizontally":"/img/Rectangle-6.png",
+            "video_trailer": "https://www.youtube.com/embed/Ll0IKcj3xlM?si=cby1alVyrZn11A2z"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9133",
@@ -323,8 +338,9 @@
             "isRomance": false,
             "permission": "16+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-37.png"
+            "bg": "/img/BG-13.png",
+            "poster_vertically":"/img/Rectangle-37.png",
+            "video_trailer": "https://www.youtube.com/embed/Dh1mIO79fxo?si=kNH6gLJxv0JtFnPs"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9323",
@@ -343,8 +359,9 @@
             "isRomance": false,
             "permission": "16+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-35.png"
+            "bg": "/img/BG-2.png",
+            "poster_vertically":"/img/Rectangle-35.png",
+            "video_trailer": "https://www.youtube.com/embed/Xtf3c-Y20Lw?si=fzyNTtpN1oqf-Ku4"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9333",
@@ -363,9 +380,10 @@
             "isRomance": false,
             "permission": "14+",
             "discription": "мяу",
-            "bg": "",
+            "bg": "/img/BG-12.png",
             "poster_vertically":"/img/Rectangle-38.png",
-            "poster_horizontally":"/img/Rectangle-39.png"
+            "poster_horizontally":"/img/Rectangle-39.png",
+            "video_trailer": "https://www.youtube.com/embed/J8ZDWkiPMTU?si=2EIIWtdGnVfoirWz"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9343",
@@ -384,8 +402,9 @@
             "isRomance": false,
             "permission": "14+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-26.png"
+            "bg": "/img/BG-11.png",
+            "poster_vertically":"/img/Rectangle-26.png",
+            "video_trailer": "https://www.youtube.com/embed/Lso2O3o9nwU?si=qZUCNiqLi15pZC_G"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9353",
@@ -404,8 +423,9 @@
             "isRomance": false,
             "permission": "14+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-25.png"
+            "bg": "/img/BG-3.png",
+            "poster_vertically":"/img/Rectangle-25.png",
+            "video_trailer": "https://www.youtube.com/embed/Kf9q_mz0R0s?si=zAFHF2SvuS0lIMwO"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb1113",
@@ -424,8 +444,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-27.png"
+            "bg": "/img/BG-10.png",
+            "poster_vertically":"/img/Rectangle-27.png",
+            "video_trailer": "https://www.youtube.com/embed/vnfuItkWs9c?si=ld2TZGqcxCDGcAGi&amp;controls=0"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9003",
@@ -444,8 +465,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-28.png"
+            "bg": "/img/BG-9.png",
+            "poster_vertically":"/img/Rectangle-28.png",
+            "video_trailer": "https://www.youtube.com/embed/YHkjM3bWDyw?si=ucbQk5_G6B3LegIl"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb5633",
@@ -464,8 +486,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-29.png"
+            "bg": "/img/BG-8.png",
+            "poster_vertically":"/img/Rectangle-29.png",
+            "video_trailer": "https://www.youtube.com/embed/7kOcU9lvvFo?si=7auGQ6H6VEHsOYEc"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9223",
@@ -484,8 +507,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-24.png"
+            "bg": "/img/BG-4.png",
+            "poster_vertically":"/img/Rectangle-24.png",
+            "video_trailer": "https://www.youtube.com/embed/HMnUSq3dC1g?si=ufV51XGjOd4_Tv8o"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb1333",
@@ -504,8 +528,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-30.png"
+            "bg": "/img/BG-7.png",
+            "poster_vertically":"/img/Rectangle-30.png",
+            "video_trailer": "https://www.youtube.com/embed/ArYV7DBw-x8?si=sBG_sKVk3Me3Mh_3"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb1233",
@@ -524,8 +549,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-31.png"
+            "bg": "/img/BG-6.png",
+            "poster_vertically":"/img/Rectangle-31.png",
+            "video_trailer": "https://www.youtube.com/embed/I3smeRr8PGM?si=Duv5YyY6ZyNL31kh"
         },
         {
             "id": "3f8f6bbe-eeb3-430b-8356-718caadfb9113",
@@ -544,8 +570,9 @@
             "isRomance": false,
             "permission": "6+",
             "discription": "мяу",
-            "bg": "",
-            "poster_vertically":"/img/Rectangle-32.png"
+            "bg": "/img/BG-5.png",
+            "poster_vertically":"/img/Rectangle-32.png",
+            "video_trailer": "https://www.youtube.com/embed/cd3aSHuKPBQ?si=YyYUWikRs3SIos82"
         }
     ],
     "categoryList": [

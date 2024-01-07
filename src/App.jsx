@@ -10,6 +10,7 @@ import data from './data.json'
 
 import styles from './App.module.css';
 import { useEffect, useState } from 'react';
+import PageSearch from "page/PageSearch";
 
 const filter = (list = [], categoryName = false, isTrill = false, isFantastic = false, isAction = false, isComedy = false, isDrama = false, isHorror = false, isRomance = false) => {
   const next = list
@@ -39,9 +40,10 @@ function Movies() {
   )
 }
 
+
 function Cartoons() {
 
-  const [filmList, setFilmList] = useState(data.filmList)
+  const [filmList, setFilmList] = useState(() => data.filmList.filter(item => item.categoryName === 'Cartoon'))
 
   return (
     <>
@@ -56,7 +58,7 @@ function Cartoons() {
 
 function Series() {
 
-  const [filmList, setFilmList] = useState(data.filmList)
+  const [filmList, setFilmList] = useState(() => data.filmList.filter(item => item.categoryName === 'series'))
 
   return (
     <>
@@ -119,6 +121,7 @@ function App() {
         <Route path="/colections" element={<Collections />} />
         <Route path="/new" element={<NewFilms />} />
         <Route path="/product/:id" element={<PageProduct />} />
+        <Route path="/search/" element={<PageSearch />} />
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>);

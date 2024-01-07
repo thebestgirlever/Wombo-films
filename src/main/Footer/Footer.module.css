@@ -8,8 +8,7 @@
 .left {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-top: 40px;
+    padding: 24px 0 10px 100px;
 }
 
 .left__title {
@@ -63,7 +62,6 @@
     
     .left {
         padding-left: 80px;
-        padding-top: 24px;
     }
     
     .menu {
@@ -98,8 +96,7 @@
     }
     
     .left {
-        padding-left: 40px;
-        padding-top: 16px;
+        padding: 16px 0 16px 40px;
     }
     
     .left__title {
@@ -131,8 +128,7 @@
     }
     
     .left {
-        padding-left: 32px;
-        padding-top: 14px;
+        padding: 14px 0 12px 32px;
     }
     
     .left__text {

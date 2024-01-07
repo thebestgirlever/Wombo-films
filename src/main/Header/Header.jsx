@@ -6,7 +6,7 @@ import styles from './Header.module.css';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
-function Header() {
+function Header(searchChange) {
     const [isOpen, setIsOpen] = useState(false)
 
     const onBurgerClick = () => {
@@ -31,20 +31,20 @@ function Header() {
                         [styles.mini__menu_opend]: isOpen
                     })} >
                         <Link className={styles.mini__menu__item} to="/movies">Фильмы</Link>
-                        <div className={styles.mini__menu__item} href="/cartoons">Мультфильмы</div>
-                        <div className={styles.mini__menu__item} href="/series">Сериалы</div>
-                        <div className={styles.mini__menu__item} href="/collections">
+                        <Link className={styles.mini__menu__item} to="/cartoons">Мультфильмы</Link>
+                        <Link className={styles.mini__menu__item} to="/series">Сериалы</Link>
+                        <Link className={styles.mini__menu__item} to="/collections">
                             Подборки
-                        </div>
-                        <div className={styles.mini__menu__item} href="/new">
+                        </Link>
+                        <Link className={styles.mini__menu__item} to="/new">
                             Новинки
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
                 <div className={styles.logo}>
                     <Link to='/'>
-                        <Logo className={styles.logoImg} />
+                        <Logo className={styles.img__logo} />
                     </Link>
                 </div>
 
@@ -66,9 +66,11 @@ function Header() {
                 //     searchChange(e.target.value)
                 // }}
                 />
-                <svg className={styles.img__search} xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none">
-                    <path fill="#DC773D" fillRule="evenodd" d="m21 19.3 6.7 6.7c.4.5.4 1.2 0 1.7-.5.4-1.2.4-1.7 0l-6.7-6.8a11.8 11.8 0 1 1 1.7-1.7ZM2.2 11.8a9.5 9.5 0 1 0 19 0 9.5 9.5 0 0 0-19 0Z" clipRule="evenodd" />
-                </svg>
+                <Link to='/search'>
+                    <svg className={styles.img__search} xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none">
+                        <path fill="#DC773D" fillRule="evenodd" d="m21 19.3 6.7 6.7c.4.5.4 1.2 0 1.7-.5.4-1.2.4-1.7 0l-6.7-6.8a11.8 11.8 0 1 1 1.7-1.7ZM2.2 11.8a9.5 9.5 0 1 0 19 0 9.5 9.5 0 0 0-19 0Z" clipRule="evenodd" />
+                    </svg>
+                </Link>
             </div>
         </div >
     )
