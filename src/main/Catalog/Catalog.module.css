@@ -1,5 +1,5 @@
 .bread__crumbs {
-    padding-top: 20px;
+    padding-top: 120px;
     padding-left: 100px;
     color: #FFD5BC;
     font-size: 16px;
@@ -59,7 +59,7 @@
 
 @media (max-width: 1440px) {
     .bread__crumbs {
-        padding-top: 30px;
+        padding-top: 130px;
         padding-left: 80px;
     }
 
@@ -86,7 +86,7 @@
     }
 
     .bread__crumbs {
-        padding-top: 7px;
+        padding-top: 87px;
         padding-left: 32px;
         font-size: 12px;
     }
@@ -120,7 +120,7 @@
     }
 
     .bread__crumbs {
-        padding-top: 5px;
+        padding-top: 55px;
         padding-left: 16px;
         font-size: 8px;
     }
