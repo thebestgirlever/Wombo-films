@@ -14,11 +14,6 @@ const PageProduct = () => {
     data.filmList.find((item) => item.id === id)
   );
 
-  console.log(
-    "some >>",
-    data.filmList.find((item) => item.id === id)
-  );
-
   useEffect(() => {
     setItem(data.filmList.find((item) => item.id === id));
   }, [id]);

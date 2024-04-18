@@ -1,3 +1,6 @@
+Link {
+    text-decoration: none;
+}
 .item {
     display: flex;
     flex-direction: column;
@@ -29,17 +32,7 @@
     font-weight: 500;
 }
 @media (max-width: 1440px) {
-    .item {
-        /* width: 180px; */
-        /* height: 310px; */
-        /* padding-right: 40px; */
-    }
-    
-    .roll__image {
-        /* width: 180px; */
-        /* height: 268px; */
-    }
-    
+
     .movie__name {
         font-size: 14px;
         padding-bottom: 1px;
@@ -54,12 +47,7 @@
     .item {
         padding: 0 12px 20px 12px;
     }
-    
-    .roll__image {
-        /* width: 137px; */
-        /* height: 204px; */
-    }
-    
+
     .movie__name {
         font-size: 11px;
         padding-top: 8px;
@@ -75,11 +63,7 @@
         padding: 0 3px 5px 3px;
     }
     
-    .roll__image {
-        /* width: 91px; */
-        /* height: 135px; */
-    }
-    
+
     .movie__name {
         font-size: 0px;
         padding: 0;

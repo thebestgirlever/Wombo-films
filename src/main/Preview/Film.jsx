@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Film({ item }) {
     return (
         <>
-            <div className={styles.wrapper} style={{ backgroundImage: `url(${item.bg || '/img/Avengers.png'})` }}>
+            <div className={styles.wrapper} style={{ backgroundImage: `url(${process.env.PUBLIC_URL + item.bg})` }}>
                 <div className={styles.shadow} />
                 <div className={styles.item}>
 

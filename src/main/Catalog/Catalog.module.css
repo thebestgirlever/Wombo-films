@@ -53,7 +53,7 @@
     position: absolute;
     width: 100%;
     top: 0;
-    height: 350px;
+    height: 200px;
     z-index: 20;
 }
 
@@ -76,7 +76,7 @@
         padding-left: 60px;
     }
     .shadow {
-        height: 250px;
+        height: 180px;
     }
 }
 
@@ -110,7 +110,7 @@
     }
 
     .shadow {
-        height: 200px;
+        height: 120px;
     }
 }
 
@@ -143,6 +143,6 @@
         padding: 24px 13px;
     }
     .shadow {
-        height: 200px;
+        height: 120px;
     }
 }

@@ -4,9 +4,9 @@ import { ReactComponent as Logo } from './logo.svg';
 import styles from './Header.module.css';
 
 import { Link } from "react-router-dom";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-function Header(searchChange) {
+function Header() {
     const [isOpen, setIsOpen] = useState(false)
 
     const onBurgerClick = () => {
@@ -50,11 +50,11 @@ function Header(searchChange) {
 
                 <div className={styles.main__menu}>
                     <ul className={styles.menu}>
-                        <a className={styles.text} href='/movies'><li>Фильмы</li></a>
-                        <a className={styles.text} href='/cartoons'><li>Мультфильмы</li></a>
-                        <a className={styles.text} href='/series'><li>Сериалы</li></a>
-                        <a className={styles.text} href='/colections'><li>Подборки</li></a>
-                        <a className={styles.text} href='/new'><li>Новинки</li></a>
+                        <Link className={styles.text} to='/movies'><li>Фильмы</li></Link>
+                        <Link className={styles.text} to='/cartoons'><li>Мультфильмы</li></Link>
+                        <Link className={styles.text} to='/series'><li>Сериалы</li></Link>
+                        <Link className={styles.text} to='/colections'><li>Подборки</li></Link>
+                        <Link className={styles.text} to='/new'><li>Новинки</li></Link>
                     </ul>
                 </div>
             </div>
