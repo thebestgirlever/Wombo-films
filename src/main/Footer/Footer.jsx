@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -10,11 +11,11 @@ function Footer() {
                 </div>
             </div>
             <ul className={styles.menu}>
-                <a className={styles.center__text} href='/movies'><li>Фильмы</li></a>
-                <a className={styles.center__text} href='/cartoons'><li>Мультфильмы</li></a>
-                <a className={styles.center__text} href='/series'><li>Сериалы</li></a>
-                <a className={styles.center__text} href='/colections'><li>Подборки</li></a>
-                <a className={styles.center__text} href='/new'><li>Новинки</li></a>
+                <Link className={styles.center__text} to='/movies'><li>Фильмы</li></Link>
+                <Link className={styles.center__text} to='/cartoons'><li>Мультфильмы</li></Link>
+                <Link className={styles.center__text} to='/series'><li>Сериалы</li></Link>
+                <Link className={styles.center__text} to='/colections'><li>Подборки</li></Link>
+                <Link className={styles.center__text} to='/new'><li>Новинки</li></Link>
             </ul>
             <div className={styles.right}>
                 <a className={styles.icon} href='none'>

@@ -1,6 +1,6 @@
 import Item from "../../components/Item/Item";
 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import styles from './Catalog.module.css';
 
 
