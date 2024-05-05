@@ -98,7 +98,7 @@ const Product = ({ item }) => {
                     <div className={styles.description__text}>9 сентября 2017</div>
                 </div>
             </div>
-            <img className={styles.poster} src={src} alt="Movie" />
+            <img className={styles.poster} src={process.env.PUBLIC_URL + src} alt="Movie" />
         </>
     );
 };

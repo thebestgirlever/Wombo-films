@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 426px) {
   .roll__block {
     padding: 0 16px 24px 16px;
   }
