@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Wombo-films/static/css/main.75aa7d63.css",
-    "main.js": "/Wombo-films/static/js/main.64218b01.js",
-    "static/js/787.ed6ff04e.chunk.js": "/Wombo-films/static/js/787.ed6ff04e.chunk.js",
+    "main.css": "/Wombo-films/static/css/main.67cb0d83.css",
+    "main.js": "/Wombo-films/static/js/main.9572fc4e.js",
+    "static/js/787.ab16ed33.chunk.js": "/Wombo-films/static/js/787.ab16ed33.chunk.js",
     "static/media/logo.svg": "/Wombo-films/static/media/logo.7bda99ba0462bf1424922351a7b07e17.svg",
     "index.html": "/Wombo-films/index.html",
-    "main.75aa7d63.css.map": "/Wombo-films/static/css/main.75aa7d63.css.map",
-    "main.64218b01.js.map": "/Wombo-films/static/js/main.64218b01.js.map",
-    "787.ed6ff04e.chunk.js.map": "/Wombo-films/static/js/787.ed6ff04e.chunk.js.map"
+    "main.67cb0d83.css.map": "/Wombo-films/static/css/main.67cb0d83.css.map",
+    "main.9572fc4e.js.map": "/Wombo-films/static/js/main.9572fc4e.js.map",
+    "787.ab16ed33.chunk.js.map": "/Wombo-films/static/js/787.ab16ed33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75aa7d63.css",
-    "static/js/main.64218b01.js"
+    "static/css/main.67cb0d83.css",
+    "static/js/main.9572fc4e.js"
   ]
 }
